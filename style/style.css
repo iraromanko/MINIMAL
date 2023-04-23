@@ -128,7 +128,7 @@ header nav.d-flex{
     content: '';
     background: rgba(0, 0, 0, 0.09);
     display: block;
-    margin: 28px auto 0; /*чтобы линия была посередине*/
+    margin: 28px auto 42px; /*чтобы линия была посередине*/
     width: 80px;
     height: 2px;
 }
@@ -151,7 +151,7 @@ header nav.d-flex{
     margin-top: 43px;
 }
 
-.cards-wrapper .card:hover{
+.cards-wrapper .card :hover{
     box-shadow: 0 1px 10px rgba(0,0 ,0, 0.52);
 }
 
@@ -166,6 +166,149 @@ header nav.d-flex{
     background: #F5F5F5;
 }
 
+.projects-wrapper{
+    gap:20px
+}
+.project-card{
+    background: white;
+}
+
+.project-card-title{
+    margin-top: 19px;
+}
+.project-card-description{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 21px;
+
+}
+
+.sec-5{
+    padding: 79px 0;
+}
+
+.team-card-title{
+    margin-top: 20px;
+}
+
+.team-card-description{
+    font-size: 14px;
+    text-align: center;
+}
+
+.team-wrapper{
+    gap: 20px;
+}
+
+.svg-wrapper{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    gap: 6px
+}
+.icon-wrapper{
+    width: 29px;
+    height: 14px;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.reviews{
+    background: #F5F5F5;
+}
+
+.svg-center-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 69px 0 66px;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 98px;
+}
+
+.comment-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 447px;
+    height: 215px;
+    padding: 0 52px;
+}
+
+
+.comment-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 447px;
+    height: 215px;
+    padding: 0 70px;
+    position: relative;
+}
+
+.comment-right:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.04);
+    display: block;
+    width: 2px;
+    height: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.comment-text{
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+}
+.comment-name{
+    font-size: 14px;
+    color: #ABABAB;
+}
+
+.social{
+    background-image: url("../images/bg-contact.png");
+    background-repeat: no-repeat; /*чтобы не повторялось*/
+    background-size: cover; /*чтобы не сжималось*/
+    background-position: center center ;
+    /*padding: 105px 0 100px;*/
+    text-align: center;
+}
+
+.social h2{
+    padding: 79px 0 0;
+}
+
+.png-wrapper{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.address-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 75px;
+
+}
+.social-title{
+    margin: 26px 0 20px;
+}
+
+.links-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: start;
+    width: fit-content;
+    margin: 0 auto;
+}
 footer{
     background: black;
     padding: 69px 0 75px;
