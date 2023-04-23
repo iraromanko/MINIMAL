@@ -151,6 +151,10 @@ header nav.d-flex{
     margin-top: 43px;
 }
 
+.cards-wrapper .card:hover{
+    box-shadow: 0 1px 10px rgba(0,0 ,0, 0.52);
+}
+
 .card{
     max-width: 300px;
     width: 100%;
@@ -239,5 +243,15 @@ textarea{
 .sec-4{
     padding: 79px 0;
     background: #F5F5F5;
+}
+
+/*АДАПТИВ*/
+
+@media (min-width: 320px){
+
+}
+
+@media (max-width: 1024px ){
+    
 }
 
