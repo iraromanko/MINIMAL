@@ -155,6 +155,9 @@ header nav.d-flex{
     box-shadow: 0 1px 10px rgba(0,0 ,0, 0.52);
 }
 
+.project-card:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.52);
+}
 .card{
     max-width: 300px;
     width: 100%;
@@ -390,11 +393,72 @@ textarea{
 
 /*АДАПТИВ*/
 
-@media (min-width: 320px){
 
-}
+@media (max-width: 1024px){
 
-@media (max-width: 1024px ){
-    
+    header nav.d-flex {
+        flex-direction: column;
+    }
+    .sec-2-text{
+        margin: 20px;
+    }
+    .cards-wrapper {
+        gap: 10px;
+        margin-top: 43px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-wrapper {
+        gap: 20px;
+        justify-content: center;
+    }
+    .team-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+   .comment{
+       flex-direction: column;
+       align-items: center;
+   }
+    .comment-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 447px;
+        width: 100%;
+        height: auto;
+        padding: 0 52px;
+    }
+    .comment-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 447px;
+        width: 100%;
+        height: auto;
+        padding: 0 70px;
+        position: relative;
+        margin-top: 30px;
+    }
+    .comment-right:after {
+        width: 80%;
+        height: 2px;
+        position: absolute;
+        top: -20px;
+        left: 10%;
+    }
+    .address-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 75px;
+        gap:50px;
+    }
+
+    .footer-form {
+        max-width: 564px;
+        width: 100%;
+    }
+
 }
 
